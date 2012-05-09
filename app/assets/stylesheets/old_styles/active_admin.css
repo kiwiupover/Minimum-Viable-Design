@@ -1,0 +1,103 @@
+/*
+Syntax error: File to import not found or unreadable: bourbon.
+              Load paths:
+                /Users/kiwidave/Documents/Projects/ruby_jobs/public/stylesheets/sass
+                /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets
+                /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/lib/active_admin/sass
+        on line 11 of /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets/active_admin/mixins/_all.css.scss
+        from line 1 of /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets/active_admin/_mixins.css.scss
+        from line 2 of /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/lib/active_admin/sass/active_admin.scss
+
+Backtrace:
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets/active_admin/mixins/_all.css.scss:11
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets/active_admin/_mixins.css.scss:1
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/lib/active_admin/sass/active_admin.scss:2
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/import_node.rb:42:in `import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:149:in `rescue in visit_import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:154:in `visit_import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:146:in `block in visit_import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:146:in `map'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:146:in `visit_import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:146:in `block in visit_import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:146:in `map'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:146:in `visit_import'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/tree/root_node.rb:20:in `render'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/engine.rb:299:in `_render'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/engine.rb:247:in `block in render'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/util.rb:311:in `silence_sass_warnings'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/engine.rb:247:in `render'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/plugin/compiler.rb:332:in `update_stylesheet'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.1.16/lib/sass/plugin/rack.rb:51:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/warden-1.1.1/lib/warden/manager.rb:35:in `block in call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/warden-1.1.1/lib/warden/manager.rb:34:in `catch'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/warden-1.1.1/lib/warden/manager.rb:34:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD:app/assets/stylesheets/old_styles/active_admin.css
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__570651858705356671__call__3878984116098016201__callbacks'
+=======
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__3460009589769845148__call__138958835187755818__callbacks'
+>>>>>>> 6ff918b... added the bootstrap:public/stylesheets/active_admin.css
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/kiwidave/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/kiwidave/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/kiwidave/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bourbon.\A               Load paths:\A                 /Users/kiwidave/Documents/Projects/ruby_jobs/public/stylesheets/sass\A                 /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets\A                 /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/lib/active_admin/sass\A         on line 11 of /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets/active_admin/mixins/_all.css.scss\A         from line 1 of /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/app/assets/stylesheets/active_admin/_mixins.css.scss\A         from line 2 of /Users/kiwidave/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.4.3/lib/active_admin/sass/active_admin.scss"; }

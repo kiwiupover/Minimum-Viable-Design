@@ -1,0 +1,99 @@
+@import "config";
+@import "bootstrap";
+@import "mixins";  
+@import "spaces";
+@import "grid_helpers";
+@import "typography";
+@import "buttons";  
+
+body {
+	padding-top:40px;
+	font-family:$base-font;
+	background:transparent url('bg.jpg') left top;
+} 
+.container {
+	&.bg {
+		background:lighten($bg_color, 5%);
+		padding:40px;
+		margin:0px auto 10px; 
+		@include radius();
+		@include shadow(0.2);
+	}
+	&.bg-image {
+		background:$text_color url('bg-photo.jpg') center top no-repeat;
+		height:620px;
+	}
+} 
+.wrapper-main-content {
+	background:lighten($text_color, 10%) url('noise.png');
+	@include gradient_top(lighten($text_color, 10%), lighten($text_color, 0%));
+	border-bottom:2px solid #111; 
+	@include shadow_bottom(); 
+	&.bg-image {
+		background:$text_color url('bg-photo.jpg') center top no-repeat;
+		height:550px;
+		top:-30px; 
+		position:relative;
+	}
+} 
+.hero-unit {
+	background:transparent url('');
+	@include radius(0);
+	h1 { 
+		color:$bold-color;
+		@include text_shadow();
+		font-family:$firm-font;
+		font-style:italic; 
+		font-weight:100; 
+		font-size:56px;
+		letter-spacing:-2px;
+		background:rgba(darken($pale_color, 40%), 0.7);
+		padding:10px 10px 0;
+		margin-left:90px;
+		float:left; 
+	} 
+	h2 {
+		color:#eee;
+		font-weight:100; 
+		font-size:32px;
+		margin-left:90px; 
+		float:left;
+	 	position:relative;
+		top:26px; 
+		left:30px;
+		@include transform(rotate(-2deg));
+		@include text_shadow(); 
+	}
+}
+
+.main-content {
+	position:relative;
+	top:-200px;
+}
+.simple_form {
+	@extend .form-horizontal;
+	input.string { 
+		font-size:130%;
+		@extend .mts;
+		@extend .phm;
+		@extend .pvs;
+		@extend .span6;
+		@include roundshadow(lighten($pale_color, 30%)); 
+		&:focus {border-color:rgba(darken($pale_color, 20%), 0.8);}
+	}
+	.btn {
+		@extend .button-huge;
+		@extend .firm; 
+		@extend .h3;
+		@extend .ptm; 
+		@extend .mtm;
+		@extend .mlx;
+	}
+}
+.noise-bg {
+	background:transparent url('noise.png') repeat;
+}
+input.string {
+	height:auto;
+	padding:6px 10px 4px;
+} 

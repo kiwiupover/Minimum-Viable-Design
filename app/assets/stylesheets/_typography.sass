@@ -1,0 +1,66 @@
+@import config
+// Typography
+//------------------------------------------------
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
+  font-weight: bold
+  font-family: $firm-font
+  line-height: 1.25 
+  color: $text_color
+
+h1, .h1
+  +font-size($h1)
+  margin-bottom: 12px
+h2, .h2
+  +font-size($h2)
+  margin-bottom: 9px
+h3, .h3
+  +font-size($h3)
+  margin-bottom: 9px
+h4, .h4
+  +font-size($h4)
+  margin-bottom: 3px
+h5, .h5
+  +font-size($h5)
+  margin-bottom: 3px
+  font-weight: normal
+h6, .h6
+  +font-size($h6)
+  font-weight: normal
+
+.subheader
+  color: #777
+  font-weight: 300
+  margin-bottom: 24px
+
+.script-font 
+  font-family: $alt-font
+p
+  +font-size($base-font-size)
+  line-height: 1.25
+  margin: 0 0 18px
+  color: $text_color
+  img
+    margin: 0
+  &.lead
+    +font-size($base-font-size * 1.25)
+    line-height: 1.5
+
+a
+  color: $anchor_color
+  &:hover
+    color: $anchor_color_light
+
+em, i
+  font-style: italic
+  line-height: inherit
+strong, b
+  font-weight: bold
+  line-height: inherit
+small
+  font-size: 60%
+  line-height: inherit 
+
+label
+  color: $text_color
+  font-size: $base-font-size
