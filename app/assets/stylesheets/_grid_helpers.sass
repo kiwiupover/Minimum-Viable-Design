@@ -1,0 +1,73 @@
+.right
+  float: right
+
+.left
+  float: left
+
+.center
+  margin-left: auto
+  margin-right: auto
+
+.hidden
+  display: none
+
+.by-left
+  text-align: left
+
+.by-right
+  text-align: right
+
+.by-center, .text-center
+  text-align: center
+  
+// Blockgrids
+//----------------------------------------------------------------------------------------------------
+
+// Notes:
+//
+//    These are 2-up, 3-up, 4-up and 5-up ULs suited for repeating blocks of content.
+//    Add 'mobile' to them to switch them just like the layout grid (one item per line) on phones
+//
+//    For IE7/8 compatibility, block-grid items need to be the same height.
+//    To support arbitrary height, set $support-block-grid-nth-child to true
+//    Just know that IE7/8 do not support :nth-child
+
+.block-grid
+  display: block
+  overflow: hidden
+  & > li
+    display: block
+    height: auto
+    float: left
+  &.two-up
+    margin-left: -4%
+    & > li
+      margin-left: 4%
+      width: 46%
+      @if $support-block-grid-nth-child
+        &:nth-child(2n+1)
+          clear: left
+  &.three-up
+    margin-left: -2%
+    & > li
+      margin-left: 2%
+      width: 31.3%
+      @if $support-block-grid-nth-child
+        &:nth-child(3n+1)
+          clear: left
+  &.four-up
+    margin-left: -2%
+    & > li
+      margin-left: 2%
+      width: 23%
+      @if $support-block-grid-nth-child
+        &:nth-child(4n+1)
+          clear: left
+  &.five-up
+    margin-left: -1.5%
+    & > li
+      margin-left: 1.5%
+      width: 18.5%
+      @if $support-block-grid-nth-child
+        &:nth-child(5n+1)
+          clear: left        

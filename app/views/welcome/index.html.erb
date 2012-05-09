@@ -1,0 +1,31 @@
+</div><!-- close the main container div   -->
+<div class="wrapper-main-content bg-image">
+  <div class="container">
+    <div id="welcome" class="hero-unit">
+      <h2 class="script-font h1">Welcome to the</h2>
+      <h1 class="h2">Seattle Ruby Meetup Group's <strong>Job Board</strong></h1>
+    </div>
+  </div>
+</div>
+<div class="container bg main-content">
+  <div class="row">
+    <div class="span6">
+      <form accept-charset="UTF-8" action="/subscribers" class="simple_form new_subscriber" id="new_subscriber" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dLRsvtyM6/2Tg/tebY1WWRF/fz2pbv2lpbG90VpgAWQ=" /></div>
+        <div class="inputs">
+          <div class="input email optional"><label class="email optional" for="subscriber_email"> Your email is all we need</label><input class="string email optional" id="subscriber_email" maxlength="255" name="subscriber[email]" placeholder="Your Email for Jobs" size="50" type="email" /></div>
+        </div>
+        <div class="actions right">
+          <input class="btn btn-primary btn-large mts mrs" name="commit" type="submit" value="Sign Up" />
+        </div>
+        <div class="ptm mts">
+            <h4>Jobs sent to your inbox once a week.</h4>
+        </div> 
+      </form>
+    </div>
+    <div class="column span5 offset1">
+      <h3>Do you need a Rubyist for a job? Are you a recruiter looking to fill a Rails job?  <%= link_to "Post it here.", "/jobs" %></h3>
+      <p>This service is provided by the Seattle Ruby Meetup Group.</p>
+      <p>This list currently emails a bunch of highly interested people every week.</p>
+    </div>
+  </div>
+<!-- Leave container open to be closed by the application layout -->

@@ -1,0 +1,14 @@
+<div id="topbar" class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <%=  link_to logo_text, root_path, :class => "brand" %> 
+      <ul class="nav">
+        <li><a href="/all_jobs" class="<%= if request.fullpath == "/all_jobs" then "nav-selected" end %>">The Jobs</a></li>
+        <li><a href="/jobs" class="<%= if request.fullpath == "/jobs" then "nav-selected" end %>">Post a Job</a></li>
+        <li><a href="/users/edit" class="<%= if request.fullpath == "/users/edit" then "nav-selected" end %>">My Account</a></li>
+        <li><a href="/faq" class="<%= if request.fullpath == "/faq" then "nav-selected" end %>">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+

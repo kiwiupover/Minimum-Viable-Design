@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <%= csrf_meta_tag %>
+  <%= stylesheet_link_tag "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag 'nicEdit', 'jquery.selectBox.min' %>
+  
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 7]>
+    <script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="http://use.typekit.com/jhb1lgj.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+<script type="text/javascript">
+	bkLib.onDomLoaded(function() { nicEditors.allTextAreas({iconsPath : '/images/nicEditorIcons.gif'}) });
+</script>
+
+<div class="wrapper" data-spy="scroll">
+  <div class="wrapper-header"> </div>
+  <%= render 'layouts/header' %> 
+  <div class="container">
+    <section class="round">
+      <% flash.each do |key, value| %>
+          <div class="<%= key %>"><%= value %></div>
+      <% end %>
+      <%= yield %>
+    </section>
+    
+  </div>
+  <div class="push"> </div>
+</div>
+<%= render 'layouts/footer' %>
+</body>
+</html>
